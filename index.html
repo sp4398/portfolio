@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav's Portfolio</title>
+    <link rel="stylesheet" href="normalize.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+   
+
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactme">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <img src="saurav_img.jpeg">
+            <h1>Hi! I'm Saurav!</h1>
+        </div>
+    </section>
+
+    <section id="aboutme" class="aboutme">
+        <h2>About me</h2>
+        <div class="aboutme-section">
+            <div class="image">
+                <div class="aboutme-image"></div>
+            </div>
+            <div class="aboutme-text">
+                <p>
+                    I am final year student of BTech(Computer Science). I am excited to be part of a community of passionate learners and innovators. With a strong foundation in programming languages such as Python, C, and C++, I have honed my skills as a full-stack developer. My experience has equipped me with the knowledge and tools to build dynamic and user-friendly applications. As an avid learner, I am always seeking new challenges and opportunities to grow and develop my skills.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="chat-project">
+                    <div class="text">
+                        <h3 class="project-name">Chat-App</h3>
+                        <div class="content">
+                            <p>A Django based chat application.</p>
+                        </div>
+                        <a class="button" href="https://github.com/sp4398/Chatting_app.git" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="breast-cancer">
+                    <div class="text">
+                        <h3 class="project-name">Breast Cancer Detection</h3>
+                        <div class="content">
+                            <p>This project is based on machine learning to detect breast cancer</p>
+                        </div>
+                        <a class="button" href="https://github.com/sp4398/Breast-Cancer-Detection-ML.git" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contactme" class="contacts">
+        <h2>Contact</h2>
+        <p>Use this form to get in touch. I would love to hear from you!</p>
+        <form action="">
+            <div class="contact-details">
+
+                <label for="name">Name</label>
+                <input type="text" id="yourname" placeholder="Your Name">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Reason for your message">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Your Email address">
+            </div>
+
+            <div class="message">
+                <label for="msg">Message</label>
+                <textarea id="msg" rows="15"></textarea>
+                <button type="submit">Submit</button>
+
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                This site &copy; 2023 Saurav Pandey
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/saurav.pandey.16547008/"><i class="fa fa-facebook-official"></i></a>
+                <a href="https://twitter.com/sp4398"><i class="fa fa-twitter"></i></a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
