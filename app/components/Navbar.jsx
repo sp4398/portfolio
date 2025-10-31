@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { assets } from "@/assets/assets";
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 const Navbar = () => {
   const sideMenuRef = useRef();
